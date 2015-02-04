@@ -13,61 +13,8 @@ defined('_JEXEC') or die;
     <link rel="stylesheet" href="<?php echo JURI::base(); ?>media/mod_bootstrapnav/css/bootstrap.css" type="text/css" />
 <?php endif; ?>
 <?php //print_r($list); ?>
-<style>
-
-.navbar, .navbar .container{
-    background: <?php echo $background_color; ?> !important;
-}
-
-.navbar-nav > li > a{
-     color:<?php echo $text_color; ?> !important;
-     text-shadow: 0 0 0 !important;
-}
-
-.dropdown-menu .sub-menu {
-    left: 100%;
-    position: absolute;
-    top: 0;
-    visibility: hidden;
-    margin-top: -1px;
-}
-
-.dropdown-menu li:hover .sub-menu {
-    visibility: visible;
-}
-
-.dropdown:hover .dropdown-menu {
-    display: block;
-}
-
-.nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
-    margin-top: 0;
-}
-
-.navbar .sub-menu:before {
-    border-bottom: 7px solid transparent;
-    border-left: none;
-    border-right: 7px solid rgba(0, 0, 0, 0.2);
-    border-top: 7px solid transparent;
-    left: -7px;
-    top: 10px;
-}
-.navbar .sub-menu:after {
-    border-top: 6px solid transparent;
-    border-left: none;
-    border-right: 6px solid #fff;
-    border-bottom: 6px solid transparent;
-    left: 10px;
-    top: 11px;
-    left: -6px;
-}
-
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
-     background: <?php echo $active_background_color; ?> !important;
-}
-</style>
 <?php if($nav_type == 'navbar') : ?>
-<div class="navbar <?php echo $fixed; ?>" role="navigation">
+<div class="navbar <?php echo $fixed; ?> <?php echo $invert; ?>" role="navigation">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">

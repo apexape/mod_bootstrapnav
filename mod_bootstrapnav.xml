@@ -56,31 +56,6 @@
 					<option
 						value="listgroup">List Group</option>
 				</field>
-
-				<field
-					name="background_color"
-					type="color"
-					default="#f9f9f9"
-					label="MOD_MENU_FIELD_NAV_BACKGROUND_COLOR_LABEL"
-					description="MOD_MENU_FIELD_NAV_BACKGROUND_COLOR_DESC">					
-				</field>
-
-				<field
-					name="text_color"
-					type="color"
-					default="#333333"
-					label="MOD_MENU_FIELD_NAV_TEXT_COLOR_LABEL"
-					description="MOD_MENU_FIELD_NAV_TEXT_COLOR_DESC">					
-				</field>
-
-				<field
-					name="active_background_color"
-					type="color"
-					default="#f4f4f4"
-					label="MOD_MENU_FIELD_NAV_ACTIVE_BACKGROUND_COLOR_LABEL"
-					description="MOD_MENU_FIELD_NAV_ACTIVE_BACKGROUND_COLOR_DESC">					
-				</field>
-
 				<field
 					name="fixed"
 					type="list"
@@ -107,7 +82,16 @@
 					<option
 						value="navbar-left">Float Left</option>
 				</field>
-
+				<field
+					name="invert"
+					type="list"
+					label="Invert"
+					description="Invert Navbar colors">
+					<option
+						value="">No</option>
+					<option
+						value="navbar-inverse">Yes</option>
+				</field>
 				<field
 					name="brand_type"
 					type="list"

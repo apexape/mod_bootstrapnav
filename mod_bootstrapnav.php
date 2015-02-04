@@ -25,6 +25,7 @@ $background_color     		= $params->get('background_color','#f9f9f9');
 $text_color     			= $params->get('text_color','#333333');
 $active_background_color  	= $params->get('active_background_color','#f4f4f4');
 $fixed      				= $params->get('fixed','navbar-default');
+$invert						= $params->get('invert', 'no');
 $float      				= $params->get('float');
 $brand_type 				= $params->get('brand_type');
 $brand_text 				= $params->get('brand_text');
