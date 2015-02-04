@@ -11,7 +11,6 @@ To view a live demo, please go to - [http://demo.bootstrapjoomla.com/](http://de
 
 ##Features##
 
-* Color Option
 * Fixed Position Option
 * Feature 3
 * Text or Image Branding
@@ -39,6 +38,8 @@ If you are having issues getting this software to work, you can email support@co
 
 ##Authors##
 Brad Traversy | [Codeskillet.com](http://www.codeskillet.com)
+
+Dale DuRose | [cyberhaus.co.nz](http://www.cyberhaus.co.nz)
 
 * [http://twitter.com/bradtraversy](http://twitter.com/bradtraversy)
 * [http://www.linkedin.com/in/bradtraversy](http://www.linkedin.com/in/bradtraversy)
