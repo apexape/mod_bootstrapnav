@@ -9,9 +9,6 @@
 //No Direct Access
 defined('_JEXEC') or die;
 ?>
-<?php if($use_css == 1) : ?>
-    <link rel="stylesheet" href="<?php echo JURI::base(); ?>media/mod_bootstrapnav/css/bootstrap.css" type="text/css" />
-<?php endif; ?>
 <?php //print_r($list); ?>
 <?php if($nav_type == 'navbar') : ?>
 <div class="navbar <?php echo $fixed; ?> <?php echo $invert; ?>" role="navigation">

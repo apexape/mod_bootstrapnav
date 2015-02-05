@@ -21,16 +21,12 @@ $path		= $base->tree;
 $showAll					= $params->get('showAllChildren');
 $class_sfx					= htmlspecialchars($params->get('class_sfx'));
 $nav_type					= $params->get('nav_type');
-$background_color     		= $params->get('background_color','#f9f9f9');
-$text_color     			= $params->get('text_color','#333333');
-$active_background_color  	= $params->get('active_background_color','#f4f4f4');
 $fixed      				= $params->get('fixed','navbar-default');
 $invert						= $params->get('invert', 'no');
 $float      				= $params->get('float');
 $brand_type 				= $params->get('brand_type');
 $brand_text 				= $params->get('brand_text');
 $brand_image 				= $params->get('brand_image');
-$use_css 					= $params->get('use_css',0);
 
 if (count($list))
 {

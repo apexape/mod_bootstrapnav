@@ -20,10 +20,6 @@
 		<filename>index.html</filename>		
 		<filename>mod_bootstrapnav.xml</filename>
 	</files>
-	<media destination="mod_bootstrapnav" folder="media">
-        <folder>css</folder>
-        <folder>js</folder>
-    </media>
 	<languages>
 		<language tag="en-GB">en-GB.mod_bootstrapnav.ini</language>
 		<language tag="en-GB">en-GB.mod_bootstrapnav.sys.ini</language>
