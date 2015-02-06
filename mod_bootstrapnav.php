@@ -21,9 +21,9 @@ $path		= $base->tree;
 $showAll					= $params->get('showAllChildren');
 $class_sfx					= htmlspecialchars($params->get('class_sfx'));
 $nav_type					= $params->get('nav_type');
-$fixed      				= $params->get('fixed','navbar-default');
+$fixed						= $params->get('fixed','navbar-default');
 $invert						= $params->get('invert', 'no');
-$float      				= $params->get('float');
+$float						= $params->get('float');
 $brand_type 				= $params->get('brand_type');
 $brand_text 				= $params->get('brand_text');
 $brand_image 				= $params->get('brand_image');
@@ -32,3 +32,6 @@ if (count($list))
 {
 	require JModuleHelper::getLayoutPath('mod_bootstrapnav', $params->get('layout', 'default'));
 }
+
+
+

@@ -112,18 +112,7 @@
 						label="Brand Logo"
 						description="Upload your brand logo"
 						directory="stories" />
-				
-				<field
-					name="use_css"
-					type="list"
-					default="0"
-					label="MOD_MENU_FIELD_USE_CSS_LABEL"
-					description="MOD_MENU_FIELD_USE_CSS_DESC">
-					<option
-						value="0">No</option>
-					<option
-						value="1">Yes</option>
-				</field>
+						
 			</fieldset>
 
 			<fieldset
