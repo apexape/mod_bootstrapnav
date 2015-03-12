@@ -55,11 +55,11 @@
 				<field
 					name="fixed"
 					type="list"
-					default="navbar-default"
+					default=""
 					label="Fixed"
 					description="Choose if navbar is fixed">
 					<option
-						value="navbar-default">No</option>
+						value="">No</option>
 					<option
 						value="navbar-fixed-top">Fixed Top</option>
 					<option
@@ -84,7 +84,7 @@
 					label="Invert"
 					description="Invert Navbar colors">
 					<option
-						value="">No</option>
+						value="navbar-default">No</option>
 					<option
 						value="navbar-inverse">Yes</option>
 				</field>
